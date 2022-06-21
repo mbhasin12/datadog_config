@@ -43,7 +43,7 @@ body = HTTPLog(
 )
 
 configuration = Configuration()
-configuration.api_key['apiKeyAuth'] = 'f963793a6649166ab972a8ff91beb1b5ff' #not the real key
+configuration.api_key['apiKeyAuth'] = 'nah' #not the real key
 
 with ApiClient(configuration) as api_client:
     api_instance = LogsApi(api_client)
